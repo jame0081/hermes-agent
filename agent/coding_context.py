@@ -70,7 +70,7 @@ _PROJECT_MARKERS = (
 _GIT_TIMEOUT = 2.5
 
 
-# Cursor-grade operating brief. Tool names referenced here (read_file,
+# Operating brief for the coding posture. Tool names referenced here (read_file,
 # search_files, patch, write_file, terminal, todo) are in the coding toolset and
 # in _HERMES_CORE_TOOLS, so they're present on every surface this fires on.
 CODING_AGENT_GUIDANCE = (

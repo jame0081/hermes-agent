@@ -864,11 +864,11 @@ DEFAULT_CONFIG = {
         # env var overrides this (build-time/container mechanism).
         "environment_hint": "",
         # Coding posture — on interactive coding surfaces (CLI, TUI, desktop
-        # app, ACP) Hermes collapses to the coding toolset and adds a
-        # Cursor-style operating brief + a live git/workspace snapshot. See
+        # app, ACP) Hermes collapses to the coding toolset and adds an
+        # operating brief + a live git/workspace snapshot. See
         # agent/coding_context.py.
         #   "auto" (default) — on when the surface is interactive AND cwd is a
-        #                      git repo; messaging platforms are never affected.
+        #                      code workspace; messaging platforms unaffected.
         #   "on"             — force it everywhere (incl. non-git dirs).
         #   "off"            — disable entirely (legacy full-toolset behavior).
         "coding_context": "auto",
